@@ -69,6 +69,7 @@ app-notype/
 - GDrive 專案的 Windows 發行檔一律用 `npm run dist:win`，先在系統暫存目錄打包再複製回 `dist/v版本號/`
 - 收工時更新 Obsidian 專案筆記，檢查 diff，且只提交本次任務相關檔案
 - 不把每日流水帳寫進本檔
+- **產出一律放 `output/`**：本專案產生的檔案或資料夾（成品、匯出、報表、生成圖、渲染等）預設放專案根目錄的 `output/`，不另開 `outputs/`、`exports/`、`generated/`、`out/` 之類的資料夾，方便找；`output/` 不進 git。部署工具指定的建置目錄（`dist/`、`build/`）不在此限
 
 ## 安全與隱私
 
