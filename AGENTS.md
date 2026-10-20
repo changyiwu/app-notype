@@ -1,4 +1,4 @@
-# notype（專案藍圖）
+# app-notype（專案藍圖）
 
 > 本檔為跨 Agent 通用的專案藍圖（AGENTS.md 開放標準）。任何 Agent 的每個 session 都應先讀本檔＋`handoff.md`。
 
@@ -25,7 +25,7 @@
 ## 資料夾結構
 
 ```
-notype/
+app-notype/
 ├─ src/                   # 原始碼
 │  └─ platform/           # Windows／macOS 平台適配層
 ├─ scripts/               # 可重複執行的打包腳本
@@ -45,8 +45,8 @@ notype/
 | 層級 | 平台 | 位置 | 讀取時機 |
 |------|------|------|---------|
 | L1 | 本地（GDrive） | `AGENTS.md`＋`handoff.md` | 每個 session |
-| L2 | GitHub | https://github.com/changyiwu/noType （公開，預設分支 `main`） | 指定時 |
-| L3 | Obsidian | `notype/專案工作流程.md` | 有需要時 |
+| L2 | GitHub | https://github.com/changyiwu/app-notype （公開，預設分支 `main`） | 指定時 |
+| L3 | Obsidian | `app-notype/專案工作流程.md` | 有需要時 |
 
 ## 三個檔案的職責（依「時效性」分家，不是依「詳細程度」）
 
